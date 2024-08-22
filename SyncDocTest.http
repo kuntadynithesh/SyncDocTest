@@ -1,0 +1,6 @@
+@SyncDocTest_HostAddress = http://localhost:5279
+
+GET {{SyncDocTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
