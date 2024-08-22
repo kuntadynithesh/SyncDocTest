@@ -1,0 +1,241 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SyncDocTest/1.0.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "6.4.0",
+          "Syncfusion.EJ2.WordEditor.AspNet.Core": "26.2.8"
+        },
+        "runtime": {
+          "SyncDocTest.dll": {}
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "Microsoft.OpenApi/1.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/6.4.0": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
+          "Swashbuckle.AspNetCore.Swagger": "6.4.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.4.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.4.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.4.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "6.4.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.4.0": {
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "6.4.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "Syncfusion.Compression.Net.Core/26.2.8": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.DocIO.Net.Core/26.2.8": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "26.2.8",
+          "Syncfusion.Licensing": "26.2.8",
+          "Syncfusion.OfficeChart.Net.Core": "26.2.8",
+          "System.Text.Encoding.CodePages": "4.4.0"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.DocIO.Portable.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.EJ2.WordEditor.AspNet.Core/26.2.8": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2",
+          "Syncfusion.Compression.Net.Core": "26.2.8",
+          "Syncfusion.DocIO.Net.Core": "26.2.8",
+          "Syncfusion.OfficeChart.Net.Core": "26.2.8"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.EJ2.DocumentEditor.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/26.2.8": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Net.Core/26.2.8": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "26.2.8"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.OfficeChart.Portable.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.4.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SyncDocTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
+      "path": "microsoft.extensions.apidescription.server/6.0.5",
+      "hashPath": "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "path": "microsoft.openapi/1.2.3",
+      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
+      "path": "swashbuckle.aspnetcore/6.4.0",
+      "hashPath": "swashbuckle.aspnetcore.6.4.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nl4SBgGM+cmthUcpwO/w1lUjevdDHAqRvfUoe4Xp/Uvuzt9mzGUwyFCqa3ODBAcZYBiFoKvrYwz0rabslJvSmQ==",
+      "path": "swashbuckle.aspnetcore.swagger/6.4.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lXhcUBVqKrPFAQF7e/ZeDfb5PMgE8n5t6L5B6/BQSpiwxgHzmBcx8Msu42zLYFTvR5PIqE9Q9lZvSQAcwCxJjw==",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.4.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Net.Core/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mg7hpqsYiuWMiAsY5fQxWdxDMXJdoj0F9aCeNOxyMFJXcH11uXOpGhb4pT4YBT+tXma5LS2v/ySeTJemvr4k1g==",
+      "path": "syncfusion.compression.net.core/26.2.8",
+      "hashPath": "syncfusion.compression.net.core.26.2.8.nupkg.sha512"
+    },
+    "Syncfusion.DocIO.Net.Core/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bC1KQzm68tcBzlhp2s+BAok/4nl5JV5wI2kdGP5CaWwxjDPJlJhzdZxqpNY553AWaVY6IwwQG7XpoFHpUAXEbg==",
+      "path": "syncfusion.docio.net.core/26.2.8",
+      "hashPath": "syncfusion.docio.net.core.26.2.8.nupkg.sha512"
+    },
+    "Syncfusion.EJ2.WordEditor.AspNet.Core/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WsbBjHd1lgeXEQDGtuvrKblW/HfjWPmLmKVV2C4KRc9udciVOhsi9LwOnOla9nThgIMQKwRevz7cMmdLGz3FDg==",
+      "path": "syncfusion.ej2.wordeditor.aspnet.core/26.2.8",
+      "hashPath": "syncfusion.ej2.wordeditor.aspnet.core.26.2.8.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2Kz7fFrzf0QECPbvwtmQjjYLXeMrfqw2MPhQ1BrDUS8orTjajQ+VDXzrSY+GuWv+qUxM77tMl/5u4YLtwi0bSw==",
+      "path": "syncfusion.licensing/26.2.8",
+      "hashPath": "syncfusion.licensing.26.2.8.nupkg.sha512"
+    },
+    "Syncfusion.OfficeChart.Net.Core/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bBQ3aNdTsO3eKJtXMkfuZszFNrbxKWnW/FjzMH91YbxErIDKblVGVQf9ftWyxPKvUYa30P8IifDwfcxlK/0IkQ==",
+      "path": "syncfusion.officechart.net.core/26.2.8",
+      "hashPath": "syncfusion.officechart.net.core.26.2.8.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "path": "system.text.encoding.codepages/4.4.0",
+      "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
+    }
+  }
+}
