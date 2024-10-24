@@ -32,7 +32,7 @@ namespace SyncDocTest.Controllers
         }    
 
         [HttpPost]
-        public FileStreamResult Export[FromBody] SaveParameter data)
+        public FileStreamResult Export([FromBody] SaveParameter data)
         {
             // Convert the content to a Word document stream
             Stream document = WordDocument.Save(data.content, FormatType.Docx);
