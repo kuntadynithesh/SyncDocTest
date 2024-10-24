@@ -29,7 +29,25 @@ namespace SyncDocTest.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
-        }        
+        }    
+
+        [HttpPost]
+        public FileStreamResult Export[FromBody] SaveParameter data)
+        {
+            // Convert the content to a Word document stream
+            Stream document = WordDocument.Save(data.content, FormatType.Docx);
+        
+            // Reset the position of the stream to ensure proper reading
+            document.Position = 0;
+        
+            // Create a FileStreamResult to return the file stream
+            var fileStreamResult = new FileStreamResult(document, "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+            {
+                FileDownloadName = "sample.docx"
+            };
+        
+            return fileStreamResult;
+        }
 
         public class SaveParameter
         {
