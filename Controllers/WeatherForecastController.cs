@@ -29,17 +29,7 @@ namespace SyncDocTest.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
-        }
-
-        [HttpPost]
-        public void ExportSFDT([FromBody] SaveParameter data)
-        {
-            Stream document = WordDocument.Save(data.content, FormatType.Docx);
-            FileStream file = new FileStream("sample.docx", FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            document.CopyTo(file);
-            file.Close();
-            document.Close();
-        }
+        }        
 
         public class SaveParameter
         {
